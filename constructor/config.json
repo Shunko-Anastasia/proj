@@ -1,0 +1,33 @@
+{
+	"urls":{
+		"open main page":{
+			"path":"/",
+			"controller":"Anastasia\\Trip\\Controllers\\IndexController::index",
+			"method":"GET"
+		},
+		"open construct":{
+			"path": "/construct",
+			"controller":"Anastasia\\Trip\\Controllers\\ConstructController::construct",
+			"method":"GET"
+		},
+		"open account":{
+			"path": "/account",
+			"controller":"Anastasia\\Trip\\Controllers\\AccountController::account",
+			"method":"GET"
+		},
+		"open registration":{
+			"path": "/registration",
+			"controller":"Anastasia\\Trip\\Controllers\\RegistrationController::registration",
+			"method":"GET"
+		}
+
+	},
+  "db": {
+    "server": "127.0.0.1",
+    "port" : "8889",
+    "dbname": "construct",
+    "user": "root",
+    "pass": "root",
+    "charset": "utf8"
+  }
+}

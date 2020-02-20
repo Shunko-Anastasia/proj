@@ -1,0 +1,21 @@
+{
+    "name": "anastasia/trip",
+    "description": "travel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anastasia Shunko",
+            "email": "shunkoa2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nikic/fast-route": "^2.0@dev"
+    },
+    "autoload": {
+       "psr-4": {
+           "Anastasia\\Trip\\": "src/"
+       }
+    }
+}
