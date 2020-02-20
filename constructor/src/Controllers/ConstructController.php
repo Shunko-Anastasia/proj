@@ -9,7 +9,7 @@ class ConstructController extends Controller
 {
 	public function construct(){
 		$title = 'Путешествия';
-		$content = '/construct.php';
+		$content = 'construct.php';
 		$data = [
 			'title'=>$title,
 		];

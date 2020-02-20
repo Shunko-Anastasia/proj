@@ -10,16 +10,31 @@
 			"controller":"Anastasia\\Trip\\Controllers\\ConstructController::construct",
 			"method":"GET"
 		},
-		"open account":{
-			"path": "/account",
-			"controller":"Anastasia\\Trip\\Controllers\\AccountController::account",
-			"method":"GET"
-		},
-		"open registration":{
-			"path": "/registration",
-			"controller":"Anastasia\\Trip\\Controllers\\RegistrationController::registration",
-			"method":"GET"
-		}
+		// "open account":{
+		// 	"path": "/account",
+		// 	"controller":"Anastasia\\Trip\\Controllers\\AccountController::account",
+		// 	"method":"GET"
+		// },
+		// "open registration":{
+		// 	"path": "/registration",
+		// 	"controller":"Anastasia\\Trip\\Controllers\\RegistrationController::registration",
+		// 	"method":"GET"
+		// }
+		"registration": {
+      "path": "/registration",
+      "controller": "Ifmo\\Web\\Controllers\\AccountController::regAction",
+      "method": "GET"
+    },
+    "add user": {
+      "path": "/registration",
+      "controller": "Ifmo\\Web\\Controllers\\AccountController::addUser",
+      "method": "POST"
+    },
+    "account": {
+      "path":"/account",
+      "controller": "Ifmo\\Web\\Controllers\\AccountController::accountAction",
+      "method" : "GET"
+    }
 
 	},
   "db": {
