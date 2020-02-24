@@ -1,25 +1,45 @@
 <main>
-	<section class="we">
-		<h1 class="loz_we">Путешествия</h1>
-		<div class="cards">
-			<div class="card">
-				<img class="card_header" src="/static/img/ital.jpg" alt="">
-				<h2 class="card_title">Верона</h1>
-				<p class="card_summary">Верона – город в области Венеция на севере Италии. Район старого города расположен на изгибе реки Адидже. Верона известна тем, что здесь происходили события трагедии У. Шекспира "Ромео и Джульетта". Построенное в XIV веке здание с небольшим балконом, выходящим во внутренний двор, называют "Дом Джульетты". Также в городе сохранился римский амфитеатр I века, Арена-ди-Верона. Сейчас там проходят различные концерты и крупные оперные выступления.</p>
-				<a class="a_promo btn_constructor" href="/construct">Выбрать</a>
-			</div>
-			<div class="card">
-				<img class="card_header" src="/static/img/franc.jpg" alt="">
-				<h2 class="card_title">Париж</h1>
-				<p class="card_summary">Столица Франции Париж – один из главных европейских городов и мировой центр культуры, искусства, моды и гастрономии. В центральной части города, построенной в XIX веке, проходят широкие бульвары и протекает река Сена. Самые известные достопримечательности Парижа – Эйфелева башня и собор Парижской Богоматери в готическом стиле, возведенный в XII веке. Также город славится своими многочисленными кафе и бутиками с одеждой от известных модельеров на улице Фобур-Сент-Оноре.</p>
-				<a class="a_promo btn_constructor" href="/construct">Выбрать</a>
-			</div>
-			<div class="card">
-				<img class="card_header" src="/static/img/vengr.jpg" alt="">
-				<h2 class="card_title">Будапешт</h1>
-				<p class="card_summary">Будапешт – столица Венгрии, разделенная на две части рекой Дунай. Цепной мост, построенный в XIX веке, соединяет холмистый район Буда и равнинный Пешт. На фуникулере можно подняться на Крепостную гору, где находится Старый город района Буда и Музей истории Будапешта, коллекция которого знакомит с историей города начиная с римской эпохи. На площади Святой Троицы расположена церковь Матьяша, построенная в XIII веке, и Рыбацкий бастион, с башен которого открывается великолепный вид на город.</p>
-				<a class="a_promo btn_constructor" href="/construct">Выбрать</a>
-			</div>
-		</div>
-	</section>
+	<section class="constructor">
+			<form action="" method="">
+				<fieldset>
+					<p>Сконструируй свое путешесвие самостоятель, исходя из своих пожеланий, пройдя опросник</p>
+					
+					<legend>Опросник</legend>
+
+					 	<div class="answer1">
+						<p>Для начала определимся с бюджетом</p>
+						<label><input name="answer1" type="radio" id="answer">меньше 50 000 рублей</label>
+	        			<label><input name="answer1" type="radio" id="answer">50 000 - 10 000 рублей</label>
+	        			<label><input name="answer1" type="radio" id="answer">больше 10 000 рублей </label>
+        			</div>
+
+        			<div class="answer2">
+						<p>Выберем часть света</p>
+						<label><input name="answer2" type="radio" id="answer">Европа</label>
+	        			<label><input name="answer2" type="radio" id="answer">Африка</label>
+	        			<label><input name="answer12" type="radio" id="answer">Азия</label>
+	        			<label><input name="answer2" type="radio" id="answer">Америка</label>
+	        			<label><input name="answer2" type="radio" id="answer">Антрактида</label>
+	        			<label><input name="answer12" type="radio" id="answer">Австралия</label>
+        			</div>
+					
+					<div class="answer2">
+					<p>Выбираем что мы хотим увидеть в дополнении</p>
+						<label><input name="answer2" type="radio" id="answer">Море</label>
+	        			<label><input name="answer2" type="radio" id="answer">Пустыня</label>
+	        			<label><input name="answer2" type="radio" id="answer">Горы</label>
+	        			<label><input name="answer2" type="radio" id="answer">Каналы</label>     
+        			</div>   			
+					
+					<div class="answer3">
+						<p>Как вы больше хотите передвигаться</p>
+						<label><input name="answer" type="radio" id="answer">Пешком</label>
+        				<label><input name="answer" type="radio" id="answer">На транспорте</label>
+        			</div>
+
+   					 <button type="submit" class="opros">Завершить опрос</button>
+
+				</fieldset>
+			</form>
+		</section>
 </main>

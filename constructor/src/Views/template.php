@@ -14,7 +14,7 @@
  			</div>
  			<nav class="header_menu">
 				<a class="header_item" href="/">Главная</a>
-				<a class="header_item" href="/construct">Путешествия</a>
+				<a class="header_item" href="/construct">Конструктор</a>
  			</nav>
  		</div>
 

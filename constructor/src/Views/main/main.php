@@ -5,7 +5,7 @@
                             <div class="intro">
                                 <h1>Bird</h1>
                                 <p>Конструктор путешествий</p>
-                                <a class="a_promo btn_constructor" href="/construct">Выбрать путешествие</a>
+                                <a class="a_promo btn_constructor" href="/construct">Собрать путешествие</a>
                             </div>
                         </div>
                     </div>
