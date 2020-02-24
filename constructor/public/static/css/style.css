@@ -1,21 +1,21 @@
 html {
-	min-height: 100%;
-	display: flex;
-	flex-direction: column;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 body{
-	margin: 0;
-	padding: 0;
-	flex-direction: column;
-	flex: auto; 
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    flex: auto; 
 }
 main{
-	width: 100%
-	max-width: 960px;
-	min-width: 460px;
-	margin: auto;
-	flex: auto;
-	box-sizing: border-box;
+    width: 100%
+    max-width: 960px;
+    min-width: 460px;
+    margin: auto;
+    flex: auto;
+    box-sizing: border-box;
 }
 .logo{
     color:#808080;
@@ -28,13 +28,13 @@ a{
 }
 
 img{
-	max-width: 100%;
+    max-width: 100%;
 }
 
 /*  Шапка профиля и подвал*/
 .header{
-	width: 100%;
-	flex-wrap: wrap;
+    width: 100%;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -57,132 +57,137 @@ img{
     background-color:#5F9EA0;
     color: #fff;
 }
+p,h4,h1,h3 {
+    color:#808080;
+}
 
 /*Промо*/
 .promo_box{
-	height: 50vh;
-	display: table;
-	text-align: center;
-	width: 100%;
-	border: 2px solid #5F9EA0;
-	color: #808080;
+    height: 50vh;
+    display: table;
+    text-align: center;
+    width: 100%;
+    border: 2px solid #5F9EA0;
+    color: #808080;
 }
 .intro{
-	display: table-cell;
-	vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 /*Кнопки*/
 .a_promo,
 .constructor button{
-	text-decoration: none;
-	outline: none;
-	display: inline-block;
-	margin: 10px 20px;
-	padding: 10px 30px;
-	position: relative;
-	border: 2px solid #5F9EA0;
-	color: #808080;
-	transition: .4s;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid #5F9EA0;
+    color: #808080;
+    transition: .4s;
 }
 .a_promo:after,
 .constructor button:after{
-	content: "";
-  	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	margin: auto;
-	border: 2px solid rgba(0,0,0,0);
-	transition: .4s;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgba(0,0,0,0);
+    transition: .4s;
 }
 .a_promo:hover:after,
 .constructor button:hover:after{
-	border-color: #5F9EA0;
-  	width: calc(100% - 10px);
-  	height: calc(100% + 10px);
+    border-color: #5F9EA0;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
 }
 
 /*Кто мы*/
 .we {
-	max-width: 100%;
-	margin: 0 auto; 
+    max-width: 100%;
+    margin: 0 auto; 
 }
 .loz_we {
-	text-align: center;
-	color: #808080;
-	padding: 10px;
+    text-align: center;
+    color: #808080;
+    padding: 10px;
 }
 .cards {
 
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin-top: 15px;
-	padding: 15px;
-	box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding: 15px;
+    box-sizing: border-box;
 }
 .card {
-	position: relative;
-	margin-bottom: 20px;
-	padding-bottom: 30px;
-	border: 3px solid #808080;
-	color: #808080;
-	border-radius: 4px; 
-	display: block;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    border: 3px solid #808080;
+    color: #808080;
+    border-radius: 4px; 
+    display: block;
 }
 @media (max-width: 700px) {
-	.card{
-		width: 100%
-	}
+    .card{
+        width: 100%
+    }
 }
 @media (min-width: 700px) {
-	.card{
-		max-width: 320px;
-		margin-right: 20px;
-		margin-bottom: 20px;
-	}
+    .card{
+        max-width: 320px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
 }
 .card_header{
-	position: relative;
-	overflow: hidden;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-blend-mode: overlay;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 .card_summary{
-	padding: 5% 5% 3% 5%;
+    padding: 5% 5% 3% 5%;
 }
 .card_title{
-	color: #808080;
-	text-transform: uppercase;
-	position: absolute;
-	width: 100%;
+    color: #808080;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
 }
 .we h2 {
-	font-size: 1em;
-	line-height: 1.2;
-	padding: 0 3.5%;
-	margin:0;
+    font-size: 1em;
+    line-height: 1.2;
+    padding: 0 3.5%;
+    margin:0;
 }
 
 /*Конструктор*/
 .constructor{
-	color: #808080;
-	width: 500px;
-  	margin: 0 auto;
+    color: #808080;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .constructor h1{
-	margin: 50px 0 0 0;
-  	color: #808080;
-  	font-size: 30px;
-  	font-weight: normal;
-  	text-align: center;
+    margin: 50px 0 0 0;
+    color: #808080;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
 }
 .constructor button{
-	background-color: white;
+    background-color: white;
 }
+
+

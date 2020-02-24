@@ -29,24 +29,23 @@
 	<!-- подгружаем сранички с инфой -->
     <?php include_once $content; ?> 
 
- 	<footer class="header">
+ 	<<footer class="header">
 		<div class="header_section">
  			<div class="logo line">
  				  <p>Bird</p>
  			</div>
  			<nav class="header_menu">
-				<a class="header_item" href="/">Связаться с нами:</a>
-				<a class="header_item" href="/construct">ms.shunko@mail.ru</a>
+				<p class="header_item">Связаться с нами:</a>
+				<p class="header_item">ms.shunko@mail.ru</a>
  			</nav>
  		</div>
 
  		<div class="header_section">
 			<nav class="header_menu">
-				<a class="header_item" href="/account">Мы находимся:</a>
-				<a class="header_item" href="/registration">Большая Подьяческая, д. 22</a>
+				<p class="header_item">Мы находимся:</a>
+				<p class="header_item">Большая Подьяческая, д. 22</a>
  			</nav>
  		</div>
- 		<!-- личная инфа о нас типо телефоны и емэйлы -->
 	</footer>
  	
  </body>
